@@ -1,35 +1,17 @@
 import React from 'react';
 import Text from '../atoms/Text';
 import Input from '../atoms/Input';
+import '../../styles/admin.css';
 
 function AdminLoginForm({ credenciales, setCredenciales, onSubmit, errorLogin }) {
   return (
-    <div
-      style={{
-        backgroundColor: '#141414',
-        border: '2px solid #3afff8',
-        borderRadius: '18px',
-        padding: '35px 30px',
-        boxShadow: '0 0 20px rgba(58, 255, 248, 0.25)'
-      }}
-    >
-      <Text variant="h2" className="text-center mb-4" style={{ color: '#3afff8', fontWeight: '900' }}>
+    <div className="admin-login-card">
+      <Text variant="h2" className="text-center mb-4 admin-login-title">
         ACCESO ADMINISTRATIVO
       </Text>
 
       {errorLogin && (
-        <div
-          style={{
-            padding: '10px',
-            borderRadius: '8px',
-            marginBottom: '15px',
-            backgroundColor: 'rgba(255, 77, 77, 0.15)',
-            border: '1px solid #ff4d4d',
-            color: '#ff6b6b',
-            fontSize: '0.88rem',
-            textAlign: 'center'
-          }}
-        >
+        <div className="admin-error-box">
           {errorLogin}
         </div>
       )}
@@ -57,7 +39,7 @@ function AdminLoginForm({ credenciales, setCredenciales, onSubmit, errorLogin })
           />
         </div>
 
-        <button type="submit" className="btn-sesion-neon py-3 mt-2" style={{ cursor: 'pointer', width: '100%' }}>
+        <button type="submit" className="btn-sesion-neon py-3 mt-2 admin-submit-btn">
           INGRESAR AL PANEL
         </button>
       </form>
