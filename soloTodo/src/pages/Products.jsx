@@ -37,7 +37,7 @@ function Products() {
   return (
     <Container className="my-4">
       <Text variant="div" className="titulo-seccion">
-        CATALOGO
+        CATEGORIAS
       </Text>
 
       <CategoryFilterSection

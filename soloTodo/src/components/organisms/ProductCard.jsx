@@ -11,7 +11,6 @@ function ProductCard({ product }) {
   const imagen = product.image || product.imagen;
   const categoria = product.category || product.categoria;
   
-  // 👇 Cambiado para que lea prioritariamente "product.link" (la página oficial de cada juego)
   const urlOficial = product.link || product.url || product.enlace || 'https://store.steampowered.com';
 
   const handleVerDetalles = (e) => {
@@ -89,7 +88,6 @@ function ProductCard({ product }) {
               ${Number(precio).toLocaleString('es-CL')}
             </span>
 
-            {/* Usamos un <button> normal con la clase .btn-sesion-neon para evitar el azul de Bootstrap */}
             <button
               onClick={handleVerDetalles}
               className="btn-sesion-neon"

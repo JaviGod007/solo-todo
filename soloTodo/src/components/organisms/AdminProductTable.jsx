@@ -37,7 +37,6 @@ function AdminProductTable({ productos, onEdit, onDelete }) {
               <td>${Number(precio).toLocaleString('es-CL')}</td>
               <td>{p.oferta ? ' SÍ' : 'NO'}</td>
               <td>
-                {/* 👇 Aquí está el contenedor mágico que separa los botones y los acomoda en celular */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                   <button
                     onClick={() => onEdit(p)}

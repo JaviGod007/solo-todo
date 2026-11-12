@@ -31,8 +31,6 @@ function NavBar() {
 
   return (
     <>
-      {/* 👇 AQUÍ ESTÁ EL TRUCO: Forzamos el ancho al 100% con un máximo de 1150px directo en la etiqueta */}
-{/* 👇 Le quitamos el límite de 1150px y le damos el 98% de la pantalla */}
         <header 
           className="juegotodo-header" 
           style={{ width: '98%', maxWidth: '100%', margin: '20px auto 30px auto' }}
@@ -50,7 +48,6 @@ function NavBar() {
           </button>
         </div>
 
-        {/* 2. Centro: Logo de Juegotodo */}
         <div className="header-col-centro">
           <a href="/">
             <img 
