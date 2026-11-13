@@ -113,10 +113,10 @@ function Admin() {
     }
   };
 
-  // FORMULARIO LOGIN <
+  // FORMULARIO LOGIN
   if (!esAdmin) {
     return (
-      <Container className="my-5" style={{ maxWidth: '440px' }}>
+      <Container className="my-5 admin-login-container">
         <AdminLoginForm
           credenciales={credenciales}
           setCredenciales={setCredenciales}
@@ -134,7 +134,7 @@ function Admin() {
           <Text variant="h2" className="admin-titulo">
             PANEL ADMINISTRATIVO
           </Text>
-          <Text variant="span" style={{ color: '#888', fontSize: '0.85rem' }}>
+          <Text variant="span" className="admin-session-status">
             Sesión activa como Administrador
           </Text>
         </div>
@@ -145,8 +145,7 @@ function Admin() {
           </button>
           <button
             onClick={handleCerrarSesionAdmin}
-            className="btn-sesion-neon py-2 px-3"
-            style={{ borderColor: '#ff4d4d', color: '#ff6b6b' }}
+            className="btn-sesion-neon py-2 px-3 btn-admin-logout"
           >
             SALIR
           </button>
