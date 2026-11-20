@@ -1,0 +1,124 @@
+.admin-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.admin-titulo {
+  color: #3afff8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.admin-tabla {
+  border-color: #3afff8 !important;
+}
+
+.admin-tabla th {
+  color: #3afff8 !important;
+}
+
+.admin-img-thumb {
+  width: 55px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.admin-btn-eliminar {
+  border-color: #ff4d4d !important;
+  color: #ff6b6b !important;
+}
+
+.admin-btn-eliminar:hover {
+  background-color: #ff4d4d !important;
+  color: #0b0b0b !important;
+  box-shadow: 0 0 12px #ff4d4d !important;
+}
+
+.admin-modal-content {
+  background-color: #141414 !important;
+  color: #ffffff !important;
+  border: 2px solid #3afff8 !important;
+  border-radius: 16px !important;
+}
+
+.admin-modal-header,
+.admin-modal-footer {
+  border-color: rgba(58, 255, 248, 0.3) !important;
+}
+
+.admin-label {
+  color: #3afff8;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.admin-input-field {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+  border: 1px solid #3afff8 !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+}
+
+.admin-input-field:focus {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+  border-color: #3afff8 !important;
+  box-shadow: 0 0 8px rgba(58, 255, 248, 0.5) !important;
+}
+
+.admin-login-card {
+  background-color: #141414;
+  border: 2px solid #3afff8;
+  border-radius: 18px;
+  padding: 35px 30px;
+  box-shadow: 0 0 20px rgba(58, 255, 248, 0.25);
+}
+
+.admin-login-title {
+  color: #3afff8 !important;
+  font-weight: 900 !important;
+}
+
+.admin-error-box {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 77, 77, 0.15);
+  border: 1px solid #ff4d4d;
+  color: #ff6b6b;
+  font-size: 0.88rem;
+  text-align: center;
+}
+
+.admin-submit-btn {
+  cursor: pointer;
+  width: 100%;
+}
+
+.admin-login-wrapper {
+  max-width: 440px;
+}
+
+.admin-subtitulo-sesion {
+  color: #888888;
+  font-size: 0.85rem;
+}
+
+.btn-salir-admin {
+  border-color: #ff4d4d !important;
+  color: #ff6b6b !important;
+}
+
+.btn-salir-admin:hover {
+  background-color: #ff4d4d !important;
+  color: #0b0b0b !important;
+  box-shadow: 0 0 12px rgba(255, 77, 77, 0.5) !important;
+}

@@ -1,0 +1,257 @@
+.product-detail-container {
+  max-width: 950px;
+}
+
+.product-detail-card {
+  background-color: #141414;
+  border: 2px solid #3afff8;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 22px rgba(58, 255, 248, 0.25);
+}
+
+.product-detail-img-box {
+  border: 2px solid #3afff8;
+  border-radius: 14px;
+  overflow: hidden;
+  height: 340px;
+}
+
+.product-detail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-detail-badge {
+  display: inline-block;
+  border: 1px solid #3afff8;
+  color: #3afff8;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.product-detail-title {
+  color: #3afff8;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.product-detail-desc {
+  color: #d0d0d0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.product-detail-price {
+  color: #ffffff;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.product-detail-price-num {
+  color: #3afff8;
+}
+
+.btn-detalles-dark {
+  background-color: #141414 !important;
+}
+
+.btn-volver-muted {
+  border-color: #3afff8 !important;
+  color: #3afff8 !important;
+  background-color: #141414 !important;
+} 
+
+/* ==================== BOTONES DE DETALLE Y COMPARADOR ==================== */
+.detail-action-btn {
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.detail-action-btn-sm {
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.price-comparator-box {
+  background-color: #141414;
+  border: 2px solid #3afff8;
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-top: 24px;
+  box-shadow: 0 0 18px rgba(58, 255, 248, 0.16);
+}
+
+.price-comparator-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #262626;
+}
+
+.price-comparator-title {
+  color: #3afff8;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  margin: 0 0 4px 0;
+}
+
+.price-comparator-subtitle {
+  color: #b5b5b5;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.price-comparator-count {
+  background-color: rgba(58, 255, 248, 0.1);
+  border: 1px solid rgba(58, 255, 248, 0.45);
+  color: #3afff8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+.price-comparator-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.comparator-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  background-color: #0d0d0d;
+  border: 1.5px solid #262626;
+  border-radius: 12px;
+  padding: 14px 18px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comparator-row:hover {
+  transform: translateY(-2px);
+  border-color: #3afff8;
+  box-shadow: 0 0 16px rgba(58, 255, 248, 0.28);
+  color: #ffffff;
+}
+
+.comparator-row-best {
+  background-color: #0d0d0d;
+  border-color: #3afff8;
+}
+
+.comparator-store-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.store-logo-badge {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.store-logo-eneba {
+  background-color: rgba(138, 43, 226, 0.2);
+  color: #b97aff;
+  border-color: rgba(185, 122, 255, 0.4);
+}
+
+.store-logo-instant {
+  background-color: rgba(255, 94, 20, 0.2);
+  color: #ff7b39;
+  border-color: rgba(255, 123, 57, 0.4);
+}
+
+.store-logo-cdkeys {
+  background-color: rgba(0, 174, 239, 0.2);
+  color: #38c6ff;
+  border-color: rgba(56, 198, 255, 0.4);
+}
+
+.store-logo-steam {
+  background-color: rgba(58, 255, 248, 0.14);
+  color: #3afff8;
+  border-color: rgba(58, 255, 248, 0.4);
+}
+
+.comparator-store-name-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.comparator-store-name {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.comparator-best-badge {
+  background-color: #3afff8;
+  color: #0b0b0b;
+  font-size: 0.7rem;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+.comparator-store-detail {
+  display: block;
+  font-size: 0.82rem;
+  color: #9e9e9e;
+  margin-top: 2px;
+}
+
+.comparator-price-action {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.comparator-price {
+  color: #3afff8;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.comparator-btn {
+  font-size: 0.82rem;
+  padding: 6px 14px;
+}
+
+@media (max-width: 576px) {
+  .price-comparator-box {
+    padding: 18px 16px;
+  }
+
+  .comparator-price-action {
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #1f1f1f;
+  }
+}
